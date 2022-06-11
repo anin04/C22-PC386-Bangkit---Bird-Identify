@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btnAbout"
+        android:layout_width="141dp"
+        android:layout_height="124dp"
+        android:layout_marginStart="232dp"
+        android:layout_marginTop="52dp"
+        android:backgroundTint="#6EAF75"
+        android:text="About Us"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvEmail" />
+
+    <Button
+        android:id="@+id/btnScan"
+        android:layout_width="141dp"
+        android:layout_height="124dp"
+        android:layout_marginTop="52dp"
+        android:backgroundTint="#6EAF75"
+        android:text="Scan"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.144"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvEmail"
+        app:srcCompat="@drawable/scan" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="383dp"
+        android:layout_height="44dp"
+        android:text="Hai, Selamat datang di Bird Identify!"
+        android:textAlignment="center"
+        android:textColor="#1F3521"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.068" />
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="395dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="28dp"
+        android:text="Email"
+        android:textAlignment="center"
+        android:textSize="18sp"
+
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="308dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="68dp"
+        android:backgroundTint="#6EAF75"
+        android:text="LOGOUT"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAbout" />
+
+    <ImageView
+        android:id="@+id/imageBoba3"
+        android:layout_width="100dp"
+        android:layout_height="133dp"
+        android:layout_marginStart="359dp"
+        android:layout_marginBottom="112dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.231"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:srcCompat="@drawable/boba" />
+
+    <ImageView
+        android:id="@+id/imageBoba4"
+        android:layout_width="147dp"
+        android:layout_height="134dp"
+        android:layout_marginTop="188dp"
+        android:layout_marginEnd="316dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogout"
+        app:srcCompat="@drawable/boba" />
+
+    <ImageView
+        android:id="@+id/logoo"
+        android:layout_width="164dp"
+        android:layout_height="203dp"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="120dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogout"
+        app:srcCompat="@drawable/logoo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
