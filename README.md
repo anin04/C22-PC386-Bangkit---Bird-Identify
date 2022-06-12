@@ -1,8 +1,8 @@
 # C22-PC386-Bangkit-Bird-Identify
 ![logoo](https://user-images.githubusercontent.com/91490901/173246553-fd34eec7-0dfe-40b7-bc6f-e6be9cd6533b.png)
-About
+###About
 Indonesia is a country with various kinds of animals, one of which is birds. As we know, there are many types of birds in Indonesia. Indonesia is listed as one of the countries with the highest number of bird species in the world, with a total of 1,720 species, as wikipedia said. So we often find it difficult to distinguish the types of birds in Indonesia. Bird identify is an application that can help us to recognize the types of birds in Indonesia, so  this application can certainly make it easier for us to find out the name of the bird.
-Build The Project
+###Build The Project
 ·       In the first stage :
 o   Machine Learning : Determine the fixed dataset and its method, then process on jupyter notebook
 o   Mobile Development : Create ui design in figma and deploy to android studio 
