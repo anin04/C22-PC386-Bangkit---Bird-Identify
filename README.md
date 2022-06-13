@@ -14,7 +14,9 @@ Indonesia is a country with various kinds of animals, one of which is birds. As 
 2.	Mobile Development : Deploy tensorflow lite models to android studio do testing
 * In the final stage :
 1.	Mobile Development : Do testing and build the project into apk
+###Tensorflow Lite Model
+Due to the limited file size that can be uploaded on Github, the TensorFlow Lite model can be found at the following link:
+https://drive.google.com/drive/folders/1D-RiMI0ajb6gIFSruqghEY53SXqt-wSB?usp=sharing
 ### Contributor 
 1.	A7007F0739 - Nisrina Hanifa Setiono 
 2.	M2224X2040 - Mawaddatun Nisa
-
