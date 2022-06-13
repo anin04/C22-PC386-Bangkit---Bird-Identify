@@ -17,7 +17,4 @@ Indonesia is a country with various kinds of animals, one of which is birds. As 
 ### Contributor 
 1.	A7007F0739 - Nisrina Hanifa Setiono 
 2.	M2224X2040 - Mawaddatun Nisa
-3.	M2135J1626 - Nur Afni Syafitri
-4.	C2214J1978 - Vidi Mar’atus Sholehah
-5.	M7002F0051 - Rahmat Pujiatno
 
